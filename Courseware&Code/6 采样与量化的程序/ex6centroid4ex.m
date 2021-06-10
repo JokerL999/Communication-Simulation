@@ -1,0 +1,11 @@
+
+a=[-10,-5,-4,-2,0,1,3,5,10];
+syms x ;
+y=??;
+y1=??;
+digits(5)
+for i=1:length(a)-1
+ y_actual(i)=vpa(int(y1,a(i),a(i+1))/int(y,a(i),a(i+1)));
+end
+y_actual
+
